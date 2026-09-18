@@ -1,0 +1,32 @@
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Local uploads
+uploads/
+*.pdf
+
+# Qdrant local database
+qdrant_storage/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
